@@ -1,0 +1,22 @@
+
+# Virtual environment
+venv/
+env/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local databases and stored data
+hiremind_cache.db
+chroma_db/
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
